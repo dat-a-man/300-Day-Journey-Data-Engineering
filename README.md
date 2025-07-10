@@ -147,7 +147,7 @@ By the end of this journey, you will:
 | 120 | Databricks Spark Developer | Speaking at local meetup |
 | 180 | dbt Analytics Engineer | 1000+ LinkedIn followers |
 | 240 | AWS Big Data Specialty | Conference talk acceptance |
-| 300 | Industry Recognition | Job offers at $300k+ level |
+| 300 | Industry Recognition | Job offers |
 
 ## 📊 **Success Metrics**
 
