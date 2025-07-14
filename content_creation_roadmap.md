@@ -1,6 +1,6 @@
 # Content Creation & Thought Leadership Roadmap
 
-## 🎯 Content Strategy for $80K+ Remote Roles
+## 🎯 Content Strategy for Remote Roles
 Transform learning into global credibility and remote work positioning through strategic content creation that attracts international employers and showcases distributed team capabilities.
 
 ### Remote Work Content Pillars
@@ -258,7 +258,7 @@ Position as both technical expert and remote work professional
 - **Inbound Inquiries**: 10+ recruiter messages per month
 - **Interview Conversion**: 50%+ response rate to applications
 - **Offer Generation**: 3-5 offers in final 60 days
-- **Salary Achievement**: $80K+ USD offers from multiple companies
+- **Salary Achievement**: offers from multiple companies
 
 ---
 *"Global remote work success requires more than technical skills—it demands cultural intelligence, communication excellence, and the ability to build trust across time zones and cultures."* 
