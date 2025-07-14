@@ -254,7 +254,7 @@
 4. **Start daily 30-minute routine** (Day 2)
 5. **Begin networking on LinkedIn** (Week 1)
 
-**Remember**: This is a realistic 12-month journey to a $80K+ remote role. Your 2.5 years of dlt experience gives you a significant advantage, but mastery takes time. Focus on consistent progress, not perfection! 🎯
+**Remember**: This is a realistic 12-month journey to a remote role. Your 2.5 years of dlt experience gives you a significant advantage, but mastery takes time. Focus on consistent progress, not perfection! 🎯
 
 ---
 
