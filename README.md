@@ -9,7 +9,7 @@
 **Why This Beachhead?**
 - Databricks dominates enterprise AI/ML lakehouse market
 - 70% of Fortune 500 companies use Databricks
-- High-paying remote roles ($100K-200K)
+- High-paying remote roles
 - Strong India presence and remote hiring
 - Clear certification path (Databricks Certified Associate/Professional)
 - **Your 2.5 years of dlt experience gives you a 6-month head start**
@@ -32,7 +32,7 @@
 
 ### **Phase 4: Leadership & Market Entry (Months 10-12)**
 **Goal**: Thought leadership and job market entry
-**Target**: GCP certification + portfolio + $80K+ remote role
+**Target**: GCP certification + portfolio + remote role
 
 ---
 
@@ -161,15 +161,10 @@
 - **Consulting**: Data engineering consulting firms
 - **Mid-size Companies**: Companies adopting Databricks
 
-### **Month 12 Targets ($80K-100K):**
-- **US Tech Companies**: Databricks, Snowflake, AWS
-- **High-Growth Startups**: Scale AI, Anthropic, OpenAI
-- **European Companies**: GitLab, Zapier, Buffer
-
-### **Month 18+ Targets ($100K-150K):**
-- **Enterprise Companies**: Fortune 500 companies
-- **AI/ML Companies**: Leading AI/ML platforms
-- **Leadership Roles**: Lead/Architect positions
+### **Month 12 Targets:**
+- **US Tech Companies**
+- **High-Growth Startups**
+- **European Companies**
 
 ---
 
@@ -191,7 +186,6 @@
 - Apply to 50+ remote roles
 - Network with 100+ professionals
 - Secure first remote interview
-- Land $60K-80K remote role
 
 ---
 
@@ -240,7 +234,7 @@
 - ✅ Solid Databricks and Delta Lake expertise
 - ✅ AI/ML integration skills
 - ✅ Production deployment experience
-- ✅ $80K+ remote role
+- ✅ remote role
 - ✅ Professional portfolio
 - ✅ Industry recognition
 
