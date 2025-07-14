@@ -156,7 +156,7 @@
 
 ## 🎯 **REALISTIC REMOTE ROLE TARGETING**
 
-### **Month 6 Targets ($60K-80K):**
+### **Month 6 Targets:**
 - **Startups**: Early-stage companies building data teams
 - **Consulting**: Data engineering consulting firms
 - **Mid-size Companies**: Companies adopting Databricks
