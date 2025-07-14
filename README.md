@@ -2,9 +2,11 @@
 ## Realistic Path to Remote Roles from India
 
 ### 🎯 **REALISTIC BEACHHEAD STRATEGY**
-**Primary Beachhead**: Databricks + Delta Lake + Python
-**Secondary Beachhead**: AWS EMR + Apache Spark
-**Tertiary Beachhead**: Google Cloud Dataproc + BigQuery
+- **Primary Beachhead**: Databricks + Delta Lake + Python
+
+- **Secondary Beachhead**: AWS EMR + Apache Spark
+
+- **Tertiary Beachhead**: Google Cloud Dataproc + BigQuery
 
 **Why This Beachhead?**
 - Databricks dominates enterprise AI/ML lakehouse market
