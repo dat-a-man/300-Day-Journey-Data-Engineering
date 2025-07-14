@@ -1,5 +1,5 @@
 # 12-Month Learning Plan: Python-First ETL for AI/ML Lakehouses
-## Realistic Path to $80K+ Remote Roles from India
+## Realistic Path to Remote Roles from India
 
 ### 🎯 **REALISTIC BEACHHEAD STRATEGY**
 **Primary Beachhead**: Databricks + Delta Lake + Python
@@ -77,23 +77,23 @@
 - ✅ GCP certification
 - ✅ Complete portfolio
 - ✅ Thought leadership presence
-- ✅ $80K+ remote role
+- ✅ remote role
 
 ---
 
 ## 💰 **REALISTIC SALARY PROGRESSION**
 
-### **Month 6**: First remote role ($60K-80K)
+### **Month 6**
 - Entry-level remote data engineer
 - Focus on learning and growth
 - Build experience with global teams
 
-### **Month 12**: Target role ($80K-100K)
+### **Month 12**: Target role
 - Senior data engineer
 - AI/ML lakehouse expertise
 - Python-first ETL specialist
 
-### **Month 18**: Advanced role ($100K-150K)
+### **Month 18**: Advanced role
 - Lead data engineer
 - Thought leadership
 - Architecture and strategy
@@ -247,7 +247,7 @@
 ### **What You CANNOT Achieve in 12 Months:**
 - ❌ Top 0.01% expert status (takes 3-5 years)
 - ❌ $150K+ roles (requires more experience)
-- ❌ Industry thought leadership (takes 2-3 years)
+- ❌ Industry thought leadership (takes 3-4 years)
 - ❌ Complete mastery of all technologies
 
 ---
