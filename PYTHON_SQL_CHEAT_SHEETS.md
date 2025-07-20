@@ -703,4 +703,169 @@ SELECT
 FROM user_events;
 ```
 
-**Keep this file handy for quick reference during your learning journey!** 📚 
+---
+
+## 🧊 **ICEBERG INTEGRATION**
+
+### **Python + Iceberg Patterns**
+```python
+# ICEBERG WITH PYSPARK
+from pyspark.sql import SparkSession
+
+# Initialize Spark with Iceberg
+spark = SparkSession.builder \
+    .appName("IcebergApp") \
+    .config("spark.sql.extensions", 
+            "org.apache.iceberg.spark.extensions.IcebergSparkSessionExtensions") \
+    .config("spark.sql.catalog.spark_catalog", 
+            "org.apache.iceberg.spark.SparkSessionCatalog") \
+    .config("spark.sql.catalog.spark_catalog.type", "hive") \
+    .getOrCreate()
+
+# CREATE ICEBERG TABLE
+def create_iceberg_table(table_name, schema):
+    spark.sql(f"""
+        CREATE TABLE {table_name} (
+            {schema}
+        ) USING iceberg
+        PARTITIONED BY (days(event_time))
+    """)
+
+# MIGRATION PATTERN: DELTA TO ICEBERG
+def migrate_delta_to_iceberg(delta_table_path, iceberg_table_name):
+    # Read from Delta
+    df = spark.read.format("delta").load(delta_table_path)
+    
+    # Write to Iceberg with proper partitioning
+    df.write \
+        .format("iceberg") \
+        .mode("overwrite") \
+        .option("write.format.default", "parquet") \
+        .saveAsTable(iceberg_table_name)
+    
+    # Verify migration
+    delta_count = spark.read.format("delta").load(delta_table_path).count()
+    iceberg_count = spark.table(iceberg_table_name).count()
+    
+    assert delta_count == iceberg_count, f"Migration failed: {delta_count} != {iceberg_count}"
+
+# ICEBERG TIME TRAVEL
+def query_iceberg_history(table_name, timestamp):
+    return spark.sql(f"""
+        SELECT * FROM {table_name}
+        TIMESTAMP AS OF '{timestamp}'
+    """)
+
+# SCHEMA EVOLUTION
+def add_column_to_iceberg(table_name, column_name, column_type):
+    spark.sql(f"""
+        ALTER TABLE {table_name}
+        ADD COLUMN {column_name} {column_type}
+    """)
+```
+
+### **SQL + Iceberg Patterns**
+```sql
+-- CREATE ICEBERG TABLE
+CREATE TABLE iceberg_catalog.sales.transactions (
+    transaction_id STRING,
+    user_id STRING,
+    amount DECIMAL(10,2),
+    transaction_date DATE,
+    region STRING
+) USING iceberg
+PARTITIONED BY (region, bucket(10, user_id));
+
+-- TIME TRAVEL QUERIES
+SELECT * FROM iceberg_catalog.sales.transactions
+TIMESTAMP AS OF '2024-01-01 00:00:00';
+
+-- SCHEMA EVOLUTION
+ALTER TABLE iceberg_catalog.sales.transactions
+ADD COLUMN payment_method STRING;
+
+-- PARTITION EVOLUTION
+ALTER TABLE iceberg_catalog.sales.transactions
+REPLACE PARTITION FIELD region WITH truncate(region, 2);
+
+-- MIGRATION WITH VALIDATION
+WITH source_data AS (
+    SELECT * FROM delta_table
+    WHERE updated_at > (
+        SELECT COALESCE(MAX(updated_at), '1900-01-01')
+        FROM iceberg_table
+    )
+)
+INSERT INTO iceberg_table
+SELECT * FROM source_data;
+
+-- MULTI-FORMAT QUERYING
+WITH iceberg_data AS (
+    SELECT user_id, event_count
+    FROM iceberg_catalog.events.user_events
+),
+delta_data AS (
+    SELECT user_id, purchase_amount
+    FROM delta.`/path/to/purchases`
+)
+SELECT 
+    i.user_id,
+    i.event_count,
+    d.purchase_amount
+FROM iceberg_data i
+JOIN delta_data d ON i.user_id = d.user_id;
+
+-- ICEBERG MAINTENANCE
+-- Optimize file layout
+CALL spark_catalog.system.rewrite_data_files('iceberg_catalog.db.table');
+
+-- Remove old snapshots
+CALL spark_catalog.system.expire_snapshots('iceberg_catalog.db.table', 
+                                           TIMESTAMP '2024-01-01 00:00:00');
+
+-- Update table statistics
+CALL spark_catalog.system.rewrite_position_delete_files('iceberg_catalog.db.table');
+```
+
+### **Migration Expertise Patterns**
+```python
+# MIGRATION ASSESSMENT
+class MigrationAssessment:
+    def analyze_table(self, table_path):
+        return {
+            'size_gb': self._get_table_size(table_path),
+            'row_count': self._get_row_count(table_path),
+            'schema_complexity': self._assess_schema(table_path),
+            'partition_strategy': self._analyze_partitions(table_path),
+            'migration_time_estimate': self._estimate_time(table_path)
+        }
+
+# ZERO-DOWNTIME MIGRATION
+class ZeroDowntimeMigration:
+    def execute(self):
+        self._setup_dual_write()        # Write to both formats
+        self._backfill_historical()     # Copy existing data
+        self._validate_consistency()    # Ensure data matches
+        self._switch_reads()           # Start reading from Iceberg
+        self._cleanup_source()         # Remove Delta table
+
+# PERFORMANCE OPTIMIZATION
+def optimize_iceberg_table(table_name):
+    # Compact small files
+    spark.sql(f"CALL spark_catalog.system.rewrite_data_files('{table_name}')")
+    
+    # Update statistics
+    spark.sql(f"ANALYZE TABLE {table_name} COMPUTE STATISTICS")
+    
+    # Expire old snapshots
+    spark.sql(f"""
+        CALL spark_catalog.system.expire_snapshots(
+            '{table_name}', 
+            TIMESTAMP '{datetime.now() - timedelta(days=7)}'
+        )
+    """)
+```
+
+**Keep this file handy for quick reference during your learning journey!** 📚
+
+**With Iceberg integration, you're positioned at the forefront of the data lakehouse evolution!** 🧊 

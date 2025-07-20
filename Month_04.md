@@ -1,4 +1,4 @@
-# Month 4: Multi-Cloud, Open Source Lakehouse & Interoperability (Adrian Brudaru Style)
+# Month 4: Multi-Cloud, Open Source Lakehouse, Iceberg Migration & Interoperability (Adrian Brudaru Style)
 
 ## Week 1
 
@@ -7,7 +7,7 @@
   **Resources:**
   - [Databricks on AWS, Azure, GCP (Docs, 7 min)](https://docs.databricks.com/en/getting-started/cloud.html)
   - [Multi-Cloud Data Platforms (Blog, 10 min)](https://www.databricks.com/blog/2022/03/15/multi-cloud-data-platforms.html)
-- **Doable:** Compare Databricks setup on two clouds (e.g., AWS vs Azure).
+- **Doable:** Compare Databricks setup on two clouds (e.g., AWS vs Azure) and set up Iceberg tables in both.
 - **Possible high-impact LinkedIn post:** "Vendor lock-in is the silent killer of innovation. Why multi-cloud Lakehouse is the antidote."
 - **Possible blog post (for the week):** "Breaking the Chains: Multi-Cloud Lakehouse for the Modern Data Engineer."
 
@@ -16,7 +16,7 @@
   **Resources:**
   - [Apache Hudi Quickstart (Docs, 10 min)](https://hudi.apache.org/docs/quick-start-guide)
   - [Hudi vs Delta Lake Comparison (Blog, 12 min)](https://www.databricks.com/blog/2022/03/15/hudi-vs-delta.html)
-- **Doable:** Set up Hudi on your local environment and run a basic batch write.
+- **Doable:** Set up Hudi on your local environment and run a basic batch write. Compare with Iceberg and Delta.
 - **Possible high-impact LinkedIn post:** "Apache Hudi: The open source Lakehouse that's quietly eating Delta Lake's lunch."
 - **Possible blog post:** (see Day 1)
 
@@ -25,16 +25,16 @@
   **Resources:**
   - [Apache Iceberg Overview (Docs, 8 min)](https://iceberg.apache.org/docs/latest/)
   - [Iceberg Table Format (YouTube, 10 min)](https://www.youtube.com/watch?v=QJZ8QbKpF1A)
-- **Doable:** Create an Iceberg table and compare its features with Delta Lake.
+- **Doable:** Create an Iceberg table in a multi-cloud environment and compare its features with Delta Lake and Hudi.
 - **Possible high-impact LinkedIn post:** "Apache Iceberg: The table format that's making Lakehouse vendors sweat."
 - **Possible blog post:** (see Day 1)
 
 ### Day 4
-- **Learning:** Delta Lake vs Hudi vs Iceberg: When to choose which for batch ETL.
+- **Learning:** Delta Lake vs Hudi vs Iceberg: When to choose which for batch ETL and migration.
   **Resources:**
   - [Lakehouse Format Comparison (Blog, 15 min)](https://www.databricks.com/blog/2022/03/15/lakehouse-formats.html)
   - [Choosing the Right Format (YouTube, 12 min)](https://www.youtube.com/watch?v=QJZ8QbKpF1A)
-- **Doable:** Create a decision matrix for choosing between the three formats.
+- **Doable:** Create a decision matrix for choosing between the three formats and plan a production-scale migration to Iceberg.
 - **Possible high-impact LinkedIn post:** "Delta Lake vs Hudi vs Iceberg: The definitive guide for data engineers who care about performance."
 - **Possible blog post:** (see Day 1)
 
@@ -43,7 +43,7 @@
   **Resources:**
   - [Delta Sharing Protocol (Docs, 8 min)](https://docs.delta.io/latest/delta-sharing.html)
   - [Open Data Sharing (Blog, 7 min)](https://www.databricks.com/blog/2022/03/15/delta-sharing.html)
-- **Doable:** Set up a Delta Sharing example and share data between different platforms.
+- **Doable:** Set up a Delta Sharing example and share data between different platforms, including Iceberg.
 - **Possible high-impact LinkedIn post:** "Delta Sharing: The protocol that's making data silos obsolete."
 - **Possible blog post:** (see Day 1)
 
@@ -52,15 +52,15 @@
   **Resources:**
   - [Trino Lakehouse Integration (Docs, 10 min)](https://trino.io/docs/current/connector/iceberg.html)
   - [Presto on Lakehouse (Blog, 8 min)](https://www.databricks.com/blog/2022/03/15/presto-lakehouse.html)
-- **Doable:** Deploy Trino with Iceberg and run queries against your Lakehouse.
+- **Doable:** Deploy Trino with Iceberg and run queries against your Lakehouse, including cross-cloud and cross-format queries.
 - **Possible high-impact LinkedIn post:** "Trino + Iceberg: The open source combo that's democratizing Lakehouse access."
 - **Possible blog post:** (see Day 1)
 
 ### Day 7
-- **Learning:** Synthesize week's learning—map the open source Lakehouse ecosystem and interoperability patterns.
+- **Learning:** Synthesize week's learning—map the open source Lakehouse ecosystem and interoperability patterns, with a focus on Iceberg migration and multi-cloud.
   **Resources:**
   - [Open Source Lakehouse Landscape (Blog, 10 min)](https://www.databricks.com/blog/2022/03/15/opensource-lakehouse.html)
-- **Doable:** Create a visual map of the open source Lakehouse ecosystem.
+- **Doable:** Create a visual map of the open source Lakehouse ecosystem, highlighting Iceberg migration and multi-cloud patterns.
 - **Possible high-impact LinkedIn post:** "The open source Lakehouse ecosystem: My week 1 synthesis of the future of data."
 - **Possible blog post:** (see Day 1)
 
@@ -78,12 +78,12 @@
 - **Possible blog post (for the week):** "Multi-Cloud Lakehouse Architecture: Breaking Down Silos and Vendor Lock-in."
 
 ### Day 9
-- **Learning:** Hudi advanced features: Incremental processing, upserts, and streaming.
+- **Learning:** Hudi advanced features: Incremental processing, upserts, and batch optimization.
   **Resources:**
   - [Hudi Incremental Processing (Docs, 10 min)](https://hudi.apache.org/docs/writing_data)
-  - [Hudi Streaming (YouTube, 8 min)](https://www.youtube.com/watch?v=QJZ8QbKpF1A)
-- **Doable:** Implement an incremental processing pipeline using Hudi.
-- **Possible high-impact LinkedIn post:** "Hudi incremental processing: The feature that makes batch ETL feel like streaming."
+  - [Hudi Batch Optimization (YouTube, 8 min)](https://www.youtube.com/watch?v=QJZ8QbKpF1A)
+- **Doable:** Implement an incremental processing pipeline using Hudi for batch ETL.
+- **Possible high-impact LinkedIn post:** "Hudi incremental processing: The feature that makes batch ETL more efficient."
 - **Possible blog post:** (see Day 8)
 
 ### Day 10
@@ -253,6 +253,14 @@
 - **Doable:** Practice technical questions related to multi-cloud Lakehouse scenarios.
 - **Possible high-impact LinkedIn post:** "Lakehouse interview prep: The multi-cloud questions that separate candidates from contenders."
 - **Possible blog post:** (see Day 22)
+
+### Day 28: End-to-End Project 2 Launch
+- **Project:** Extend your Lakehouse pipeline to support cross-cloud data sharing, add observability (e.g., Soda/Monte Carlo), and demonstrate CDC handling (e.g., Delta Live Tables or Debezium).
+- **Tasks:**
+  - Update your GitHub repo with new features and architecture diagrams
+  - Document the new capabilities and learning outcomes in the README
+  - Share your project summary and lessons learned on LinkedIn/blog
+- **Tip:** Continue to scope your daily work to 30 minutes; break the project into incremental improvements.
 
 ### Day 28
 - **Learning:** Synthesize month's learning—review multi-cloud and open source Lakehouse mastery.

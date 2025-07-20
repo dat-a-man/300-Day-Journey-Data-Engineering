@@ -1,66 +1,66 @@
-# Month 6: Capstone, Certification & Public Portfolio Launch (Adrian Brudaru Style)
+# Month 6: Capstone, Certification & Public Portfolio Launch (Iceberg Migration & Multi-Format Showcase)
 
 ## Week 1
 
 ### Day 1
-- **Learning:** Capstone project design: How to architect an end-to-end Lakehouse migration and AI/ML pipeline.
+- **Learning:** Capstone project design: Architect an end-to-end Lakehouse migration to Iceberg, multi-format architecture, and AI/ML pipeline.
   **Resources:**
   - [End-to-End Lakehouse Migration (Blog, 10 min)](https://www.databricks.com/blog/2022/06/15/end-to-end-lakehouse-migration.html)
   - [Designing AI/ML Pipelines (YouTube, 12 min)](https://www.youtube.com/watch?v=QJZ8QbKpF1A)
-- **Doable:** Draft your capstone project plan and architecture diagram.
+- **Doable:** Draft your capstone project plan and architecture diagram, including Delta/Hive to Iceberg migration, multi-format querying, and streaming.
 - **Possible high-impact LinkedIn post:** "Why most portfolios are just 'hello world'—and how to build a capstone that actually gets you hired."
 - **Possible blog post (for the week):** "From Zero to Hero: Building a Portfolio That Lands Remote Data Engineering Jobs."
 
 ### Day 2
-- **Learning:** Capstone project scope: Real-world business problems and measurable outcomes.
+- **Learning:** Capstone project scope: Real-world business problems and measurable outcomes for migration to Iceberg and multi-format Lakehouse.
   **Resources:**
   - [Real-World Data Projects (Blog, 8 min)](https://www.databricks.com/blog/2022/06/15/real-world-projects.html)
   - [Business Impact Metrics (YouTube, 10 min)](https://www.youtube.com/watch?v=QJZ8QbKpF1A)
-- **Doable:** Define specific business problems and success metrics for your capstone.
+- **Doable:** Define specific business problems and success metrics for your capstone, focusing on migration, streaming, and multi-format architecture.
 - **Possible high-impact LinkedIn post:** "Capstone project scope: Why solving real business problems beats building toy datasets."
 - **Possible blog post:** (see Day 1)
 
 ### Day 3
-- **Learning:** Capstone technology stack: Choosing the right tools for maximum impact.
+- **Learning:** Capstone technology stack: Choosing the right tools for maximum impact (Iceberg, Delta, Hudi, Trino, Flink, Airflow, dbt, MLflow).
   **Resources:**
   - [Lakehouse Tech Stack (Blog, 10 min)](https://www.databricks.com/blog/2022/06/15/tech-stack.html)
   - [Tool Selection Framework (YouTube, 8 min)](https://www.youtube.com/watch?v=QJZ8QbKpF1A)
-- **Doable:** Finalize your capstone technology stack and justify your choices.
+- **Doable:** Finalize your capstone technology stack and justify your choices, emphasizing Iceberg migration and multi-format streaming.
 - **Possible high-impact LinkedIn post:** "Capstone tech stack: The tools that demonstrate real-world Lakehouse expertise."
 - **Possible blog post:** (see Day 1)
 
 ### Day 4
-- **Learning:** Capstone data sources: Finding and integrating real-world datasets.
+- **Learning:** Capstone data sources: Finding and integrating real-world datasets for migration and streaming.
   **Resources:**
   - [Public Datasets for Projects (Blog, 8 min)](https://www.databricks.com/blog/2022/06/15/public-datasets.html)
   - [Data Integration Best Practices (YouTube, 10 min)](https://www.youtube.com/watch?v=QJZ8QbKpF1A)
-- **Doable:** Identify and acquire real-world datasets for your capstone project.
+- **Doable:** Identify and acquire real-world datasets for your capstone project, including migration from Delta/Hive to Iceberg.
 - **Possible high-impact LinkedIn post:** "Capstone data sources: Why real-world datasets make all the difference."
 - **Possible blog post:** (see Day 1)
 
 ### Day 5
-- **Learning:** Capstone project planning: Timeline, milestones, and deliverable management.
+- **Learning:** Capstone project planning: Timeline, milestones, and deliverable management for migration and streaming.
   **Resources:**
   - [Project Planning for Data (Blog, 10 min)](https://www.databricks.com/blog/2022/06/15/project-planning.html)
   - [Agile Data Projects (YouTube, 8 min)](https://www.youtube.com/watch?v=QJZ8QbKpF1A)
-- **Doable:** Create a detailed project timeline with milestones and deliverables.
+- **Doable:** Create a detailed project timeline with milestones and deliverables for migration, streaming, and multi-format architecture.
 - **Possible high-impact LinkedIn post:** "Capstone project planning: The roadmap that ensures successful delivery."
 - **Possible blog post:** (see Day 1)
 
 ### Day 6
-- **Learning:** Capstone documentation: Technical writing and project documentation best practices.
+- **Learning:** Capstone documentation: Technical writing and project documentation best practices for migration and multi-format projects.
   **Resources:**
   - [Technical Documentation (Blog, 8 min)](https://www.databricks.com/blog/2022/06/15/technical-docs.html)
   - [Project Documentation (YouTube, 10 min)](https://www.youtube.com/watch?v=QJZ8QbKpF1A)
-- **Doable:** Create a documentation template for your capstone project.
+- **Doable:** Create a documentation template for your capstone project, including migration steps, streaming, and multi-format integration.
 - **Possible high-impact LinkedIn post:** "Capstone documentation: Why technical writing is as important as coding."
 - **Possible blog post:** (see Day 1)
 
 ### Day 7
-- **Learning:** Synthesize week's learning—finalize capstone project design and begin implementation.
+- **Learning:** Synthesize week's learning—finalize capstone project design and begin implementation, focusing on migration, streaming, and multi-format architecture.
   **Resources:**
   - [Project Implementation Guide (Blog, 8 min)](https://www.databricks.com/blog/2022/06/15/implementation.html)
-- **Doable:** Begin implementing your capstone project based on the design.
+- **Doable:** Begin implementing your capstone project based on the design, with a focus on migration to Iceberg and multi-format streaming.
 - **Possible high-impact LinkedIn post:** "Capstone project kickoff: From design to implementation—the journey begins."
 - **Possible blog post:** (see Day 1)
 

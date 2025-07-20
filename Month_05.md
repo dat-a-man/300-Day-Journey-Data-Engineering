@@ -1,4 +1,4 @@
-# Month 5: Data Quality, Observability & Governance at Scale (Adrian Brudaru Style)
+# Month 5: Data Quality, Observability, Governance & Iceberg Optimization (Adrian Brudaru Style)
 
 ## Week 1
 
@@ -7,127 +7,126 @@
   **Resources:**
   - [Great Expectations: Data Quality for AI (Docs, 8 min)](https://docs.greatexpectations.io/docs/tutorials/getting_started/)
   - [Why Data Quality Matters for AI (Blog, 10 min)](https://www.databricks.com/blog/2022/03/15/data-quality-ai-ml.html)
-- **Doable:** Set up advanced data quality checks in your Lakehouse pipeline.
+- **Doable:** Set up advanced data quality checks in your Lakehouse pipeline for both Delta and Iceberg tables.
 - **Possible high-impact LinkedIn post:** "If you can't trust your data, you can't trust your AI. Why data quality is the new CI/CD."
 - **Possible blog post (for the week):** "Data Quality is Not Optional: Building Trustworthy AI/ML Pipelines."
 
 ### Day 2
-- **Learning:** Advanced data validation: Custom expectations, statistical tests, and ML-based validation.
+- **Learning:** Advanced data validation: Custom expectations, statistical tests, and ML-based validation for Iceberg and Delta.
   **Resources:**
   - [Custom Great Expectations (Docs, 10 min)](https://docs.greatexpectations.io/docs/guides/expectations/creating_custom_expectations/)
   - [ML-Based Data Validation (Blog, 8 min)](https://www.databricks.com/blog/2022/03/15/ml-validation.html)
-- **Doable:** Create custom data quality expectations for your specific use case.
+- **Doable:** Create custom data quality expectations for your specific use case in both Delta and Iceberg.
 - **Possible high-impact LinkedIn post:** "Custom data validation: The secret weapon of data engineers who actually care about quality."
 - **Possible blog post:** (see Day 1)
 
 ### Day 3
-- **Learning:** Data drift detection: Statistical methods and ML-based approaches for monitoring data changes.
+- **Learning:** Data drift detection: Statistical methods and ML-based approaches for monitoring data changes in Iceberg and Delta.
   **Resources:**
   - [Data Drift Detection Methods (Blog, 12 min)](https://www.databricks.com/blog/2022/03/15/data-drift-detection.html)
   - [Statistical Drift Analysis (YouTube, 10 min)](https://www.youtube.com/watch?v=QJZ8QbKpF1A)
-- **Doable:** Implement a data drift detection system in your Lakehouse pipeline.
+- **Doable:** Implement a data drift detection system in your Lakehouse pipeline for both Delta and Iceberg.
 - **Possible high-impact LinkedIn post:** "Data drift detection: The early warning system that prevents AI model failures."
 - **Possible blog post:** (see Day 1)
 
 ### Day 4
-- **Learning:** Data observability platforms: Monte Carlo, Soda, and why they're game-changers.
+- **Learning:** Data observability platforms: Monte Carlo, Soda, and why they're game-changers for Iceberg and Delta.
   **Resources:**
   - [Monte Carlo Data Observability (Docs, 10 min)](https://www.montecarlodata.com/docs/)
   - [Soda Data Quality Platform (Blog, 8 min)](https://www.databricks.com/blog/2022/03/15/soda-platform.html)
-- **Doable:** Set up a data observability platform and configure monitoring.
+- **Doable:** Set up a data observability platform and configure monitoring for both Delta and Iceberg tables.
 - **Possible high-impact LinkedIn post:** "Data observability platforms: Why Monte Carlo and Soda are the future of data quality."
 - **Possible blog post:** (see Day 1)
 
 ### Day 5
-- **Learning:** Data lineage at scale: End-to-end tracking and impact analysis for complex pipelines.
+- **Learning:** Data lineage at scale: End-to-end tracking and impact analysis for complex pipelines, including Iceberg.
   **Resources:**
   - [Data Lineage Best Practices (Docs, 8 min)](https://docs.databricks.com/en/data-governance/unity-catalog/data-lineage.html)
   - [Impact Analysis for Data (Blog, 10 min)](https://www.databricks.com/blog/2022/03/15/impact-analysis.html)
-- **Doable:** Implement comprehensive data lineage tracking in your Lakehouse.
+- **Doable:** Implement comprehensive data lineage tracking in your Lakehouse for both Delta and Iceberg.
 - **Possible high-impact LinkedIn post:** "Data lineage at scale: The audit trail that makes compliance teams happy."
 - **Possible blog post:** (see Day 1)
 
 ### Day 6
-- **Learning:** Data contracts and SLAs: Defining expectations and service levels for data products.
+- **Learning:** Data contracts and SLAs: Defining expectations and service levels for data products in Iceberg and Delta.
   **Resources:**
   - [Data Contracts Framework (Blog, 12 min)](https://www.databricks.com/blog/2022/03/15/data-contracts.html)
   - [SLA Design for Data (YouTube, 8 min)](https://www.youtube.com/watch?v=QJZ8QbKpF1A)
-- **Doable:** Draft data contracts and SLAs for your Lakehouse data products.
+- **Doable:** Draft data contracts and SLAs for your Lakehouse data products, including Iceberg.
 - **Possible high-impact LinkedIn post:** "Data contracts and SLAs: The missing piece in data product management."
 - **Possible blog post:** (see Day 1)
 
 ### Day 7
-- **Learning:** Synthesize week's learning—build a comprehensive data quality framework.
+- **Learning:** Synthesize week's learning—build a comprehensive data quality and governance framework for both Delta and Iceberg.
   **Resources:**
   - [Data Quality Framework (Blog, 10 min)](https://www.databricks.com/blog/2022/03/15/quality-framework.html)
-- **Doable:** Create a data quality framework document for your organization.
+- **Doable:** Create a data quality and governance framework document for your organization, covering both Delta and Iceberg.
 - **Possible high-impact LinkedIn post:** "My data quality framework: The blueprint for trustworthy AI/ML pipelines."
 - **Possible blog post:** (see Day 1)
-
----
 
 ## Week 2
 
 ### Day 8
-- **Learning:** Advanced Unity Catalog: Fine-grained access control, data sharing, and governance at scale.
+- **Learning:** Advanced Unity Catalog and Iceberg governance: Fine-grained access control, data sharing, and governance at scale.
   **Resources:**
   - [Unity Catalog Advanced (Docs, 12 min)](https://docs.databricks.com/en/data-governance/unity-catalog/index.html)
-  - [Data Governance at Scale (Blog, 10 min)](https://www.databricks.com/blog/2022/03/15/governance-scale.html)
-- **Doable:** Implement advanced Unity Catalog policies and data sharing.
-- **Possible high-impact LinkedIn post:** "Unity Catalog advanced features: The governance controls that enterprise data teams need."
-- **Possible blog post (for the week):** "Enterprise Data Governance: Unity Catalog at Scale."
+  - [Iceberg Governance (Docs, 10 min)](https://iceberg.apache.org/docs/latest/)
+- **Doable:** Implement advanced Unity Catalog policies and Iceberg governance for data sharing and access control.
+- **Possible high-impact LinkedIn post:** "Unity Catalog and Iceberg advanced features: The governance controls that enterprise data teams need."
+- **Possible blog post (for the week):** "Enterprise Data Governance: Unity Catalog and Iceberg at Scale."
 
 ### Day 9
-- **Learning:** Data mesh and decentralized governance: How to scale data quality across teams.
+- **Learning:** Data mesh and decentralized governance: How to scale data quality across teams and formats (Delta, Iceberg).
   **Resources:**
   - [Data Mesh Architecture (Blog, 15 min)](https://www.databricks.com/blog/2022/03/15/data-mesh.html)
   - [Decentralized Data Governance (YouTube, 12 min)](https://www.youtube.com/watch?v=QJZ8QbKpF1A)
-- **Doable:** Design a data mesh architecture for your organization.
+- **Doable:** Design a data mesh architecture for your organization, including Iceberg and Delta.
 - **Possible high-impact LinkedIn post:** "Data mesh: The architecture pattern that's solving enterprise data governance."
 - **Possible blog post:** (see Day 8)
 
 ### Day 10
-- **Learning:** Data catalog and discovery: Apache Atlas, Amundsen, and metadata management.
+- **Learning:** Data catalog and discovery: Apache Atlas, Amundsen, and metadata management for Iceberg and Delta.
   **Resources:**
   - [Apache Atlas Setup (Docs, 10 min)](https://atlas.apache.org/)
   - [Amundsen Data Discovery (Blog, 8 min)](https://www.databricks.com/blog/2022/03/15/amundsen-discovery.html)
-- **Doable:** Set up a data catalog and implement metadata management.
+- **Doable:** Set up a data catalog and implement metadata management for both Delta and Iceberg.
 - **Possible high-impact LinkedIn post:** "Data catalog and discovery: Why Apache Atlas and Amundsen are essential for data teams."
 - **Possible blog post:** (see Day 8)
 
 ### Day 11
-- **Learning:** Data privacy and compliance: GDPR, CCPA, and privacy-by-design in Lakehouse.
+- **Learning:** Data privacy and compliance: GDPR, CCPA, and privacy-by-design in Lakehouse (Delta, Iceberg).
   **Resources:**
   - [Data Privacy in Lakehouse (Docs, 10 min)](https://docs.databricks.com/en/security/privacy/index.html)
   - [Privacy-by-Design (Blog, 8 min)](https://www.databricks.com/blog/2022/03/15/privacy-design.html)
-- **Doable:** Implement privacy controls and compliance measures in your Lakehouse.
+- **Doable:** Implement privacy controls and compliance measures in your Lakehouse for both Delta and Iceberg.
 - **Possible high-impact LinkedIn post:** "Data privacy in Lakehouse: Building compliance into your data architecture."
 - **Possible blog post:** (see Day 8)
 
 ### Day 12
-- **Learning:** Data security: Encryption, access controls, and security best practices for Lakehouse.
+- **Learning:** Data security: Encryption, access controls, and security best practices for Lakehouse (Delta, Iceberg).
   **Resources:**
   - [Lakehouse Security (Docs, 12 min)](https://docs.databricks.com/en/security/index.html)
   - [Data Security Best Practices (Blog, 10 min)](https://www.databricks.com/blog/2022/03/15/security-best-practices.html)
-- **Doable:** Implement comprehensive security controls in your Lakehouse.
+- **Doable:** Implement comprehensive security controls in your Lakehouse for both Delta and Iceberg.
 - **Possible high-impact LinkedIn post:** "Lakehouse security: The multi-layered approach that protects your data assets."
 - **Possible blog post:** (see Day 8)
 
 ### Day 13
-- **Learning:** Data observability metrics: KPIs, dashboards, and monitoring for data quality.
+- **Learning:** Data observability metrics: KPIs, dashboards, and monitoring for data quality in Delta and Iceberg.
   **Resources:**
   - [Data Observability Metrics (Blog, 10 min)](https://www.databricks.com/blog/2022/03/15/observability-metrics.html)
   - [Monitoring Dashboards (YouTube, 8 min)](https://www.youtube.com/watch?v=QJZ8QbKpF1A)
-- **Doable:** Create data observability dashboards and monitoring alerts.
+- **Doable:** Create data observability dashboards and monitoring alerts for both Delta and Iceberg.
 - **Possible high-impact LinkedIn post:** "Data observability metrics: The KPIs that matter for data quality."
 - **Possible blog post:** (see Day 8)
 
 ### Day 14
-- **Learning:** Synthesize week's learning—build a comprehensive governance framework.
+- **Learning:** Synthesize week's learning—build a comprehensive governance and optimization framework for Delta and Iceberg.
   **Resources:**
   - [Governance Framework (Blog, 8 min)](https://www.databricks.com/blog/2022/03/15/governance-framework.html)
-- **Doable:** Create a data governance framework document.
-- **Possible high-impact LinkedIn post:** "My data governance framework: The blueprint for enterprise data management."
+  - [Iceberg Compaction & Optimization (Docs, 10 min)](https://iceberg.apache.org/docs/latest/maintenance/)
+- **Doable:** Create a data governance and optimization framework document for your organization, covering both Delta and Iceberg (compaction, performance tuning, lineage).
+- **Possible high-impact LinkedIn post:** "My data governance and optimization framework: The blueprint for enterprise data management."
 - **Possible blog post:** (see Day 8)
 
 ---
