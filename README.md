@@ -104,7 +104,7 @@ Transform into a data engineer specializing in **Lakehouse Architecture, Delta L
 - **Week 4:** Mock interview practice and feedback
 - **Key Outcomes:** Interview confidence, system design expertise
 
-### **Month 9: Portfolio Finalization*
+### **Month 9: Portfolio Finalization**
 - **Week 1:** Portfolio optimization and GitHub presence
 - **Week 2:** Resume and LinkedIn optimization
 - **Week 3:** networking
