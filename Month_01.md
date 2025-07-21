@@ -7,7 +7,7 @@
   **Resources:**
   - [Databricks: What is a Data Lakehouse? (5 min read)](https://www.databricks.com/discover/data-lakehouse)
   - [Lakehouse: A New Generation of Open Platforms (YouTube, 10 min)](https://www.youtube.com/watch?v=QJZ8QbKpF1A)
-  - ```
+```
                       +--------------------------------------------+
                   |        Orchestration Layer                 |
                   |  (Airflow / Databricks Jobs / Prefect)     |
