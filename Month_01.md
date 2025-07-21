@@ -7,6 +7,55 @@
   **Resources:**
   - [Databricks: What is a Data Lakehouse? (5 min read)](https://www.databricks.com/discover/data-lakehouse)
   - [Lakehouse: A New Generation of Open Platforms (YouTube, 10 min)](https://www.youtube.com/watch?v=QJZ8QbKpF1A)
+  - ```
+                      +--------------------------------------------+
+                  |        Orchestration Layer                 |
+                  |  (Airflow / Databricks Jobs / Prefect)     |
+                  +--------------------------------------------+
+                                  │
+                                  ▼
++----------------+        +-------------------------+
+|  Data Sources  | -----> |     Ingestion Layer     |
+| (APIs, Files,  |        | (Kafka / Flink / dlt)   |
+|  DBs, Streams) |        +-------------------------+
++----------------+                     │
+                                       ▼
+                           +-------------------------+
+                           |     Storage Layer       |
+                           | (Data Lake / Lakehouse) |
+                           +-------------------------+
+                                       │
+                                       ▼
+                        +-------------------------------+
+                        |   Table Format Layer          |
+                        | (Delta / Iceberg / Hudi)      |
+                        +-------------------------------+
+                                       │
+                                       ▼
+                          +---------------------------+
+                          |  Catalog & Governance     |
+                          | (Unity / Hive / AWS Glue) |
+                          +---------------------------+
+                                       │
+                                       ▼
+                           +------------------------+
+                           |    Transformation      |
+                           | (dbt / Spark / SQL)    |
+                           +------------------------+
+                                       │
+                                       ▼
+                         +----------------------------+
+                         | Compute & Query Engine     |
+                         | (Spark / Trino / DuckDB)   |
+                         +----------------------------+
+                                       │
+                                       ▼
+                           +------------------------+
+                           |   Consumption Layer    |
+                           | (BI / ML / Dashboards) |
+                           +------------------------+
+
+```
 - **Doable:** Diagram your current understanding of the Lakehouse stack (Databricks, Delta Lake, dbt, Airflow, Unity Catalog, Iceberg, etc.) and map your existing skills to each component.
 - **Possible high-impact LinkedIn post:** "Why the Lakehouse paradigm is the foundation for AI-native data platforms: My take as a migration specialist."
 - **Possible blog post (for the week):** "From Data Warehouse to Lakehouse: A Migration Specialist's Roadmap for AI-Ready Data Platforms."
