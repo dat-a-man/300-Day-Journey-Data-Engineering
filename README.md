@@ -43,7 +43,7 @@ Transform into a data engineer specializing in **Lakehouse Architecture, Delta L
 | **5** | Enterprise Patterns | Security, governance, compliance | 30min/day + 2h build + 1h career |
 | **6** | Open Source Mastery | Hudi, Trino, Presto integration | 30min/day + 2h build + 1h career |
 | **7** | Enterprise Project | End-to-end enterprise Lakehouse | 30min/day + 2h build + 1h career |
-| **8** | Interview Mastery | System design, behavioral prep | 30min/day + 2h build + 1h career |
+| **8** | Discussion Mastery | System design, behavioral prep | 30min/day + 2h build + 1h career |
 | **9** | Portfolio work | Resume optimization, networking | 30min/day + 2h build + 1h career |
 
 ## 🎯 **Monthly Goals & Objectives**
