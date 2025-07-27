@@ -1,7 +1,7 @@
 # Data Engineering & Lakehouse Architecture: 9-Month Mastery Roadmap
 
 ## 🎯 **Mission Statement**
-Transform into a **Top 0.01% Data Engineer** specializing in **Lakehouse Architecture, Delta Lake, Apache Iceberg, and AI/ML enablement** through a structured 9-month learning journey. This roadmap uses a **proven sustainable approach**: 30-minute daily micro-lessons + weekend build sprints + career development = **6 hours/week** (24 hours/month) for maximum impact.
+Transform into a % Data Engineer** specializing in **Lakehouse Architecture, Delta Lake, Apache Iceberg, and AI/ML enablement** through a structured 9-month learning journey. This roadmap uses a **proven sustainable approach**: 30-minute daily micro-lessons + weekend build sprints + career development = **6 hours/week** (24 hours/month) for maximum impact.
 
 ## 🚀 **Key Features of This Roadmap**
 
