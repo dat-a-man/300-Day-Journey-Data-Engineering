@@ -1,6 +1,6 @@
-# Content Map: Blog & YouTube Strategy for Top 0.01% Data Engineer Positioning
+# Content Map: Blog & YouTube Strategy for Positioning
 
-## Content Philosophy (Adrian Brudaru Style)
+## Content Philosophy 
 - **Opinionated**: Take strong stances on technology choices and industry trends
 - **Forward-looking**: Focus on emerging technologies and future-proof skills
 - **Developer-focused**: Prioritize practical implementation over theory

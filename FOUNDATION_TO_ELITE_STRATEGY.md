@@ -48,7 +48,7 @@ Data Quality           →  Enterprise governance
 Pipeline Design       →  Cross-cloud orchestration
 ```
 
-## 📈 **Path to 0.01%**
+## 📈 **Path to Top%**
 
 ### **1. Foundation Phase (Weeks 1-12)**
 - Master Python/SQL fundamentals
